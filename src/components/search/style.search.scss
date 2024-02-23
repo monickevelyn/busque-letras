@@ -1,0 +1,56 @@
+.div-input-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    gap: 1em;
+    padding: 0.5em;
+
+    .inputs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;          
+        gap: 0.5em;
+    }
+
+    input {
+        border: none;
+        background: none;
+        outline: none;
+        border: 2px solid var(--color2);
+        border-radius: 8px;
+        padding: 0.4em;
+        font-size: 16px;
+        color: var(--fontcolor);
+        width: 260px;
+        height: 50px;
+    }
+
+    input::placeholder {
+        font-size: 16px;
+        color: rgb(175, 170, 170);
+    }
+
+    button {
+        border: none;
+        background: none;
+        outline: none;
+        width: 80px;
+        height: 50px;
+        color: var(--fontcolor);
+        font-size: 16x;
+        border: 2px solid var(--color2);
+        border-radius: 8px;
+        font-weight: 500;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: var(--color2);
+        color: black;
+        transform: rotate(1.1);
+        transition: all 0.3s;
+    }
+}

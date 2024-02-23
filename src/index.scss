@@ -1,0 +1,27 @@
+:root {
+    --bgcolor: #313131;
+    --bgcolor-2: #2e2d2d;
+    --fontcolor: rgb(237, 232, 232);
+    --color2: #366d7a;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    color: var(--fontcolor);
+  }
+  
+  body {
+    background-color: var(--bgcolor);
+    color: var(--fontcolor);
+    margin: 0 auto;
+    padding: 0.5em;
+    min-width: 320px;
+    max-width: 100vw;
+    min-height: 100vh;
+  }

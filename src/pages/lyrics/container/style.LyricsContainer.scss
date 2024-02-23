@@ -1,0 +1,45 @@
+.letra-container {
+    min-width: 320px;
+    max-width: 400px;
+    min-height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.2em;
+
+    .header-letra-container {
+        width: 100%;
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+
+        h2 {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: var(--color2);
+        }
+    }
+
+    .div-letra {
+        width: 100%;
+        min-height: 50vh;
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 2em;
+
+        p {
+            font-size: 1.2em;
+            font-weight: 400;
+        }
+    }
+}

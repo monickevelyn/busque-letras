@@ -1,0 +1,33 @@
+.letra-musica-container {
+    width: 100%;
+    min-height: 95vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header-container {
+        width: 100%;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        padding: 0.4em;
+    }
+
+    .conatiner-main {
+        width: 100%;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1em;
+        padding: 0.5em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+}
