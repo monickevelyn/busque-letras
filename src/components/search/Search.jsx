@@ -38,31 +38,29 @@ export default function Search(){
    
     return(
         <>
-        <form onSubmit={submit} className="div-input-search">
-          <div className="inputs">
-            <input 
+        <form onSubmit={submit} className="div-form-search">
+          <input 
               type="text" 
               id="inputnome"
               name="inputnome"
               placeholder="Música"
               onChange={e => setTitle(e.target.value)}
               value={title}
-            />
-            <input 
+           />
+          <input 
               type="text" 
               id="inputartista"
               name="inputartista"
               placeholder="Artista"
               onChange={e => setArtist(e.target.value)}
               value={artist}
-            />
-          </div>
+          />
           <button type="submit" onClick={OnSearch}>Buscar</button>
         </form>   
         {
           showMessage === true && 
           <Message 
-          message="Verfique as informações do artista e do nome da música. Se não ouver mudança, pode ser que a letra não esteja disponivel no nosso servidor."
+          message="Verfique as informações do artista e do nome da música. Se não ocorrer mudança, pode ser que a letra não esteja disponivel no servidor."
           />
         }  
         </>
