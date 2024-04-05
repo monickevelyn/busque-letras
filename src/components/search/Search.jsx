@@ -3,6 +3,7 @@ import Message from "../message/Message";
 import { useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import { VarContext } from "../../context/Context";
+import { IoSearchSharp } from "react-icons/io5";
 
 export default function Search(){
   const { artist, setArtist, title, setTitle, lyrics, setLyrics } = useContext(VarContext)
@@ -55,7 +56,7 @@ export default function Search(){
               onChange={e => setArtist(e.target.value)}
               value={artist}
           />
-          <button type="submit" onClick={OnSearch}>Buscar</button>
+          <button type="submit" onClick={OnSearch}><IoSearchSharp className="lupa" /></button>
         </form>   
         {
           showMessage === true && 
