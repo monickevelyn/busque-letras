@@ -27,7 +27,7 @@
         color: var(--fontcolor);
         width: 260px;
         height: 50px;
-        flex: 1 0 130px;
+        flex: 1 0 140px;
     }
 
     input::placeholder {
@@ -40,13 +40,13 @@
         background: none;
         outline: none;
         // width: 80px;
-        // height: 50px;
+        height: 30px;
         color: var(--fontcolor);
         font-size: 1em;
         border: 2px solid var(--color2);
         border-radius: 8px;
         font-weight: 500;
-        flex: 1 0 80px;
+        flex: 1 0 40px;
     }
 
     button:hover {
